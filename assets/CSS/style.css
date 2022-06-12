@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+:root {
+    --yellow-color: #FFFF00;
+    --yellow-light: #f8f184;
+    --blue-color: #19587D;
+    --red-color: #B11313;
+    --dark-color: #0d0e09;
+    --blue-light: #bfede9cb;
+    --black-color: #000000;
+    --pink-light: #890060b6;
+    -grey-color: #C4C4C4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+;
+h1 {
+    font-family: 'rajdhani';
+    font-size: 36px;
+    font-weight: 400;
+}
+
+button {
+    font-family: 'rajdhani';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'space-grotesk';
+    font-weight: 300;
+}
+
+
+/* Design de la navigation */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20 px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'rajdhani';
+}
+
+nav ul a:hover {
+    color: #FFFF00;
+}
+
+
+/* Design de la partie background hero*/
+
+#hero {
+    background-image: url(../Illustrations/Bathome1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
