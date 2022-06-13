@@ -77,3 +77,27 @@ nav ul a:hover {
     background-position: top center;
     background-repeat: no-repeat;
 }
+
+
+/*Design de la section batman personnage*/
+
+.batman-personnage {
+    display: flex;
+}
+
+
+/*Design de la section personnage criminel*/
+
+.personnage-criminels {
+    display: flex;
+}
+
+
+/*Desgin de la section alliés de batman*/
+
+.personnages-alliés {
+    display: flex;
+}
+
+
+/*Design de la section justice league */
