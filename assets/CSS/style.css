@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap')*/
+
+@font-face {
+    font-family: "rajdhani";
+    src: url(../Police/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+    font-family: "grotesk";
+    src: url(../Police/SpaceGrotesk-Regular.ttf);
+}
+
+@font-face {
+    font-family: "grotesk";
+    src: url(../Police/SpaceGrotesk-Bold.ttf);
+}
+
 :root {
     --yellow-color: #FFFF00;
     --yellow-light: #f8f184;
@@ -17,11 +33,14 @@
     box-sizing: border-box;
 }
 
-;
 h1 {
-    font-family: 'rajdhani';
+    font-family: "rajdhani";
     font-size: 36px;
     font-weight: 400;
+}
+
+p {
+    font-family: "Text" font-size: 18px;
 }
 
 button {
